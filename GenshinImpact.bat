@@ -42,7 +42,7 @@ if /i "%i%" == "U" (
 )
 if /i "%i%" == "L" (
 	set "i="
-	GenshinImpact.exe -screen-width %screenWidth% -screen-height %screenHeight%
+	start GenshinImpact.exe -screen-width %screenWidth% -screen-height %screenHeight% admin admin
 	exit
 )
 if /i "%i%" == "A" (
